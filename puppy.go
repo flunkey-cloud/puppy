@@ -3,9 +3,13 @@ package puppy
 import "github.com/flunkey-cloud/dog"
 
 func Bark() string {
-	return dog.Bark()
+	return "Woof!"
 }
 
 func Barks() string {
-	return dog.Barks()
+	return "Woof! Woof! Woof!"
+}
+
+func BigBarks() string {
+	return dog.WhenGrownUp("Bell Bell")
 }
